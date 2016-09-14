@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 曹林 -->
+    <color name="transparent">#00000000</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="Grey">#ffa8abad</color>
+    <color name="color_half_transparent">#30000000</color>
+    <color name="snow">#fffafa</color>    <!-- 雪白色 -->
+</resources>

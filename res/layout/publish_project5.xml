@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myproject5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/common_actionbar"
+        layout="@layout/include_action_bar" />
+    <ScrollView 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scrollbars="none"
+	    android:background="#FFFFEE" >
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+		     <LinearLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:paddingTop="20dp"
+		        android:paddingLeft="20dp"
+		        android:paddingRight="20dp"
+		        android:orientation="vertical">
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:textStyle="bold"
+		            android:text="产品链接"
+		            android:textSize="20sp"
+		            android:layout_height="wrap_content"/>
+		        <LinearLayout 
+		             android:layout_width="fill_parent"
+		             android:layout_height="wrap_content"
+		             android:paddingTop="20dp"
+		             android:paddingBottom="20dp"
+		             android:orientation="horizontal" >
+		             <LinearLayout 
+			             android:layout_width="0dp"
+			             android:layout_weight="1"
+			             android:gravity="center"
+			             android:layout_height="wrap_content"
+			             android:orientation="horizontal" >
+			             <ImageButton 
+			                android:id="@+id/AddAndroid"
+			                android:scaleType="fitCenter"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/publish_project5_1"
+			                android:background="@null"  />
+		             </LinearLayout>
+		             <LinearLayout 
+			             android:layout_width="0dp"
+			             android:layout_weight="1"
+			             android:gravity="center"
+			             android:layout_height="wrap_content"
+			             android:orientation="horizontal" >
+			             <ImageButton 
+			                android:id="@+id/AddApple"
+			                android:scaleType="fitCenter"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/publish_project5_2"
+			                android:background="@null"  />
+		             </LinearLayout>
+		             <LinearLayout 
+			             android:layout_width="0dp"
+			             android:layout_weight="1"
+			             android:gravity="center"
+			             android:layout_height="wrap_content"
+			             android:orientation="horizontal" >
+			             <ImageButton
+			                android:id="@+id/AddComputer" 
+			                android:scaleType="fitCenter"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"
+			                android:src="@drawable/publish_project5_3"
+			                android:background="@null"  />
+		             </LinearLayout>
+		        </LinearLayout>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:textStyle="bold"
+		            android:text="*填写app下载链接时请核对地址"
+		            android:textSize="15sp"
+		            android:layout_height="wrap_content"/>
+		        <TextView 
+		            android:layout_width="wrap_content"
+		            android:textStyle="bold"
+		            android:text="作品展示"
+		            android:textSize="20sp"
+		            android:paddingTop="30dp"
+		            android:paddingBottom="15dp"
+		            android:layout_height="wrap_content"/>
+
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal" >
+		             <GridView
+		                 android:id="@+id/gridview_child"
+		                 android:layout_width="fill_parent"
+		                 android:layout_height="350dp"
+		                 android:background="#fff"
+		                 android:cacheColorHint="@android:color/transparent"
+		                 android:gravity="center"
+		                 android:horizontalSpacing="5dip"
+		                 android:listSelector="@android:color/transparent"
+		                 android:numColumns="3"
+		                 android:overScrollMode="never"
+		                 android:padding="5dip"
+		                 android:scrollbars="none"
+		                 android:stretchMode="columnWidth"
+		                 android:verticalSpacing="5dip" >
+		                </GridView>
+		        </LinearLayout>
+		    </LinearLayout>
+	    </LinearLayout>
+    </ScrollView>  
+</LinearLayout>

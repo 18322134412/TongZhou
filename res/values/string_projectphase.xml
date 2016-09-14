@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ProjectPhase" translatable="false">[
+{name:"项目定义与决策",zip:"010"},
+{name:"项目计划设计",zip:"011"},
+{name:"项目实施和控制",zip:"012"},
+{name:"项目完工和交付",zip:"013"}
+]</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="FinancingStage" translatable="false">[
+{name:"等待投资",zip:"010"},
+{name:"个人出资",zip:"011"},
+{name:"天使投资",zip:"012"},
+{name:"移动应用",zip:"013"},
+{name:"A轮融资",zip:"014"},
+{name:"B轮融资",zip:"015"},
+{name:"C轮融资",zip:"016"}
+]</string>
+</resources>

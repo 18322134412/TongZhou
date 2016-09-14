@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/snow" >
+    <EditText
+        android:id="@+id/commentText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/base_textsize"
+        android:layout_toLeftOf="@+id/sendButton"
+        android:hint="请输入链接地址" 
+        android:background="@null">
+    </EditText>
+    <Button
+        android:id="@+id/sendButton"   
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="添加" 
+        android:background="@null"/>
+</RelativeLayout>
